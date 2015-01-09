@@ -1,6 +1,7 @@
 require 'generator_spec'
 require 'rails_helper'
 require 'spec_helper'
+require 'generators/wine_bouncer/initializer_generator'
 
 describe WineBouncer::Generators::InitializerGenerator, type: :generator do
   destination File.expand_path("../../tmp", __FILE__)
